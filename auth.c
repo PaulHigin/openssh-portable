@@ -92,7 +92,7 @@ extern struct passwd *privsep_pw;
 extern struct sshauthopt *auth_opts;
 
 /* Debugging messages */
-static struct sshbuf *auth_debug;
+struct sshbuf *auth_debug;
 
 /*
  * Check if the user is allowed to log in via ssh. If user is listed
